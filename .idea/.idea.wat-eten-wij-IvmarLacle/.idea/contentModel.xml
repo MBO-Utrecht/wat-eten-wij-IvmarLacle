@@ -38,6 +38,7 @@
               <e p="SaveString2.cs" t="Include" />
             </e>
           </e>
+          <e p="ResetCuisines.cs" t="Include" />
           <e p="ScriptableRecipes.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

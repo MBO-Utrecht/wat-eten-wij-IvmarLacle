@@ -17,7 +17,12 @@ public class ScriptableRecipes : ScriptableObject
         LazyCook
     }
 
-    [SerializeField]private string name;
-    [SerializeField]private Cuisines cuisines;
+    [SerializeField]public string name;
+    [SerializeField]public Cuisines cuisines;
     [SerializeField]public string[] ingredients;
+
+    public string GetCuisines(Cuisines cuisines, string ingredients)
+    {
+        return ingredients;
+    }
 }*/
